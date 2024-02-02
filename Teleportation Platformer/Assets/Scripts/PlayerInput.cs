@@ -15,12 +15,14 @@ public class PlayerInput : MonoBehaviour
     private InputActions inputActions = null;
     private Vector2 moveVector = Vector2.zero;
     private Rigidbody2D rb = null;
+    private Animator animator = null;
     private bool isFacingRight = true;
 
     private void Awake()
     {
         inputActions = new InputActions();
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     private void OnEnable()
@@ -56,10 +58,12 @@ public class PlayerInput : MonoBehaviour
     private void OnMovementPerformed(InputAction.CallbackContext context)
     {
         moveVector = context.ReadValue<Vector2>();
+        animator.SetBool("bIsRunning", true);
     }
     private void OnMovementCancelled(InputAction.CallbackContext context)
     {
         moveVector = Vector2.zero;
+        animator.SetBool("bIsRunning", false);
     }
 
     private void OnShootPerformed(InputAction.CallbackContext context)

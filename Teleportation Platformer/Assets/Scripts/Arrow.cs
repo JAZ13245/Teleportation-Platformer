@@ -21,8 +21,10 @@ public class Arrow : MonoBehaviour
         Invoke(nameof(DestroyArrow), 10f);
     }
 
+
     private void DestroyArrow()
     {
         Destroy(gameObject);
     }
+
 }
