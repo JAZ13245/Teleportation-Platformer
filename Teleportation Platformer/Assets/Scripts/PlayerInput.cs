@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,6 +15,7 @@ public class PlayerInput : MonoBehaviour
     private InputActions inputActions = null;
     private Vector2 moveVector = Vector2.zero;
     private Rigidbody2D rb = null;
+    private bool isFacingRight = true;
 
     private void Awake()
     {
@@ -40,6 +42,12 @@ public class PlayerInput : MonoBehaviour
 
 
     }
+
+    private void Update()
+    {
+        CheckIfNeedFlip();
+    }
+
     private void FixedUpdate()
     {
         rb.velocity = moveVector * moveSpeed;
@@ -58,5 +66,22 @@ public class PlayerInput : MonoBehaviour
     {
         Vector3 worldPosition = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
         bow.ShootArrow(worldPosition);
+    }
+    private void CheckIfNeedFlip()
+    {
+        if (Mouse.current == null) return;
+
+        Vector2 screenPos = Mouse.current.position.ReadValue();
+        Vector3 worldPosition = Camera.main.ScreenToWorldPoint(screenPos);
+        if(worldPosition.x < transform.position.x && isFacingRight)
+        {
+            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+            isFacingRight = false;
+        }
+        else if(worldPosition.x > transform.position.x && !isFacingRight)
+        {
+            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+            isFacingRight = true;
+        }
     }
 }

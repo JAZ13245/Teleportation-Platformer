@@ -17,5 +17,12 @@ public class Arrow : MonoBehaviour
     private void Start()
     {
         rb.velocity = transform.right * arrowSpeed;
+
+        Invoke(nameof(DestroyArrow), 10f);
+    }
+
+    private void DestroyArrow()
+    {
+        Destroy(gameObject);
     }
 }
