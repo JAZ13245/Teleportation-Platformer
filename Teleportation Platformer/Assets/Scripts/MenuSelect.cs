@@ -11,6 +11,6 @@ public class MenuSelect : MonoBehaviour
     public void LoadMain()
     {
         //to change the scene this loads go into build settings and figure out the number for the scene you want and put that here
-        SceneManager.LoadScene(0, LoadSceneMode.Single);//currently loads sample scene
+        SceneManager.LoadScene(1, LoadSceneMode.Single);//currently loads sample scene
     }
 }

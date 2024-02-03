@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5360021923551786969}
   - component: {fileID: 7266597089385990677}
   - component: {fileID: -544404805822004574}
+  - component: {fileID: 4645971247686596781}
   m_Layer: 0
   m_Name: Enemy_Flying
   m_TagString: Untagged
@@ -158,3 +159,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &4645971247686596781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7688280961009657215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df082cb0ac89e3f4083174fbf4154433, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _teleportYOffest: 0

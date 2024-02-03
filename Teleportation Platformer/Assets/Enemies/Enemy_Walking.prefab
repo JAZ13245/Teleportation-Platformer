@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1073511610776140814}
   - component: {fileID: 6818051042676085779}
   - component: {fileID: -1984912140488324783}
+  - component: {fileID: 3183223660381358788}
   - component: {fileID: -8904453618469440589}
   m_Layer: 0
   m_Name: Enemy_Walking
@@ -159,6 +160,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &3183223660381358788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2493617700724215811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df082cb0ac89e3f4083174fbf4154433, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _teleportYOffest: 0
 --- !u!114 &-8904453618469440589
 MonoBehaviour:
   m_ObjectHideFlags: 0
