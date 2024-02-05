@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Arrow : MonoBehaviour
 {
-    [SerializeField]
-    private float arrowSpeed = 5f;
+    public float arrowSpeed = 0f;
+    public Vector3 arrowDirection = Vector3.zero;
 
     private Rigidbody2D rb;
 
@@ -14,17 +14,24 @@ public class Arrow : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    private void Start()
+    private void Update()
     {
-        rb.velocity = transform.right * arrowSpeed;
-
-        Invoke(nameof(DestroyArrow), 10f);
+        FaceDirection();
     }
+    public void OnFire()
+    {
+        rb.velocity = arrowDirection * arrowSpeed;
+        Invoke(nameof(DestroyArrow), 10f);
 
+    }
 
     private void DestroyArrow()
     {
         Destroy(gameObject);
     }
 
+    private void FaceDirection()
+    {
+        transform.rotation = Quaternion.LookRotation(new Vector3(0, 0, -1), Vector3.Cross(new Vector3(0, 0, -1), new Vector3(rb.velocity.x, rb.velocity.y, 0)));
+    }
 }
