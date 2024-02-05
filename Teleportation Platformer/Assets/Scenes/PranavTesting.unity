@@ -645,7 +645,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3621702647201873444, guid: ba316c31bcc83ee4085a7bc06539b1ee, type: 3}
       propertyPath: chargeRate
-      value: 0.8
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 3621702647201873444, guid: ba316c31bcc83ee4085a7bc06539b1ee, type: 3}
       propertyPath: lineRenderer
