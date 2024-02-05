@@ -86,7 +86,7 @@ public class PlayerInput : MonoBehaviour
 
     private void OnShootPerformed(InputAction.CallbackContext context)
     {
-        mousePosOnShoot = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+        mousePosOnShoot = Mouse.current.position.ReadValue();
     }
 
     private void CheckMovementFlip(Vector2 moveVector)
@@ -106,8 +106,12 @@ public class PlayerInput : MonoBehaviour
     {
         if(inputActions.Gameplay.Shoot.IsPressed())
         {
-            isCharging = true;
-            chargeAmt = Mathf.Clamp01(chargeAmt + (chargeRate * Time.deltaTime));
+            Vector2 curMousePos = Mouse.current.position.ReadValue();
+            
+            chargeAmt = Mathf.Clamp01(chargeRate * Vector2.Distance(mousePosOnShoot, curMousePos));
+
+            if(chargeAmt > 0.05)
+                isCharging = true;
         }
         else
         {
@@ -131,7 +135,6 @@ public class PlayerInput : MonoBehaviour
         lineRenderer.enabled = true;
         lineRenderer.positionCount = Mathf.CeilToInt(linePoints/timeBetweenPoints) + 1;
         Vector3 startPos = bow._shootPoint.position;
-        Vector3 worldPosition = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
         shootDir = GetShootDirection();
         Vector3 startVelocity = GetBowPower() * shootDir;
         int i = 0;
@@ -169,7 +172,7 @@ public class PlayerInput : MonoBehaviour
     {
         //((Vector2)worldPosition - (Vector2)bow.transform.cmpPosition).normalized;
 
-        Vector2 curMousePos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+        Vector2 curMousePos = Mouse.current.position.ReadValue();
 
         return (mousePosOnShoot - curMousePos).normalized;
     }
