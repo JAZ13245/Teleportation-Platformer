@@ -45,8 +45,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e2c6b34a9cb6884aafe735f56599491, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _arrow: {fileID: 773597617327048028, guid: 98628ac3c5f82744f91a804a330847ff, type: 3}
   _shootPoint: {fileID: 4764796052318907496}
+  minShootSpeed: 2
+  maxShootSpeed: 15
+  _arrow: {fileID: 773597617327048028, guid: 98628ac3c5f82744f91a804a330847ff, type: 3}
 --- !u!1 &5210394894938294149
 GameObject:
   m_ObjectHideFlags: 0
