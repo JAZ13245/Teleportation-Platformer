@@ -14,7 +14,7 @@ public class Bow : MonoBehaviour
 
     public void ShootArrow(Vector3 shootDir, float chargeAmt)
     {
-        GameObject arrowGO = Instantiate(_arrow, _shootPoint.position, Quaternion.identity);
+        GameObject arrowGO = Instantiate(_arrow, _shootPoint.position + shootDir, Quaternion.identity);
         Arrow arrow = arrowGO.GetComponent<Arrow>();
         if(arrow != null )
         {
