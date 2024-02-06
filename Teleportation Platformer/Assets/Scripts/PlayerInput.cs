@@ -106,9 +106,8 @@ public class PlayerInput : MonoBehaviour
     {
         if(inputActions.Gameplay.Shoot.IsPressed())
         {
-            Vector2 curMousePos = Mouse.current.position.ReadValue();
             
-            chargeAmt = Mathf.Clamp01(chargeRate * Vector2.Distance(mousePosOnShoot, curMousePos));
+            chargeAmt = Mathf.Clamp01(chargeAmt + chargeRate * Time.deltaTime);
 
             if(chargeAmt > 0.05)
                 isCharging = true;
@@ -172,20 +171,21 @@ public class PlayerInput : MonoBehaviour
     {
         //((Vector2)worldPosition - (Vector2)bow.transform.cmpPosition).normalized;
 
-        Vector2 curMousePos = Mouse.current.position.ReadValue();
+        Vector3 curMouseWorldPos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
 
-        return (mousePosOnShoot - curMousePos).normalized;
+        return ((Vector2) (curMouseWorldPos -  bow._shootPoint.position)).normalized;
     }
 
     private void FlipSpriteIfNeeded(Vector3 cmpPosition)
     {
+        Vector3 curMouseWorldPos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
 
-        if (cmpPosition.x < 0 && isFacingRight)
+        if (curMouseWorldPos.x < transform.position.x && isFacingRight)
         {
             transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
             isFacingRight = false;
         }
-        else if (cmpPosition.x > 0 && !isFacingRight)
+        else if (curMouseWorldPos.x > transform.position.x && !isFacingRight)
         {
             transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
             isFacingRight = true;
