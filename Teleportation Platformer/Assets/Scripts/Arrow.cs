@@ -34,4 +34,12 @@ public class Arrow : MonoBehaviour
     {
         transform.rotation = Quaternion.LookRotation(new Vector3(0, 0, -1), Vector3.Cross(new Vector3(0, 0, -1), new Vector3(rb.velocity.x, rb.velocity.y, 0)));
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.GetComponent<TeleportPoint>() == null)
+        {
+            Destroy(gameObject);
+        }
+    }
 }
