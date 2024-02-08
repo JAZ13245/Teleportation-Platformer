@@ -65,6 +65,15 @@ public class PlayerInput : MonoBehaviour
 
         CheckCharging();
         DrawProjectileTrace();
+
+        if(isCharging)
+        {
+            animator.SetBool("bIsCharging", true);
+        }
+        else
+        {
+            animator.SetBool("bIsCharging", false);
+        }
     }
 
     private void FixedUpdate()
