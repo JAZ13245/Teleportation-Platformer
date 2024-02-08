@@ -1719,6 +1719,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1424425258}
     m_Modifications:
+    - target: {fileID: 1073511610776140814, guid: a84fb00358ceeef4f8bc91880faf7f73, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1073511610776140814, guid: a84fb00358ceeef4f8bc91880faf7f73, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1073511610776140814, guid: a84fb00358ceeef4f8bc91880faf7f73, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2493617700724215811, guid: a84fb00358ceeef4f8bc91880faf7f73, type: 3}
       propertyPath: m_Name
       value: Enemy_Walking (1)
@@ -1733,7 +1745,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7764974075850530895, guid: a84fb00358ceeef4f8bc91880faf7f73, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.02
+      value: 4.37
       objectReference: {fileID: 0}
     - target: {fileID: 7764974075850530895, guid: a84fb00358ceeef4f8bc91880faf7f73, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1775,6 +1787,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2493617700724215811, guid: a84fb00358ceeef4f8bc91880faf7f73, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1927648972}
+    - targetCorrespondingSourceObject: {fileID: 2493617700724215811, guid: a84fb00358ceeef4f8bc91880faf7f73, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1927648977}
   m_SourcePrefab: {fileID: 100100000, guid: a84fb00358ceeef4f8bc91880faf7f73, type: 3}
 --- !u!1001 &1199015492
 PrefabInstance:
@@ -2278,6 +2293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CameraTarget
       objectReference: {fileID: 0}
+    - target: {fileID: 4653480984755026648, guid: da3432e9ca579054b9f80c5cbb5bb88a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5000107004923611422, guid: da3432e9ca579054b9f80c5cbb5bb88a, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -2672,6 +2691,27 @@ MonoBehaviour:
   PointA: {fileID: 1331252904}
   PointB: {fileID: 821632966}
   speed: 3
+--- !u!95 &1927648977
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927648970}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2980171ed8e4e81408422803342b9fc7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1964374991
 GameObject:
   m_ObjectHideFlags: 0
