@@ -8,12 +8,12 @@ using UnityEngine.VFX;
 
 public class PlayerInput : MonoBehaviour
 {
+    public LineRenderer lineRenderer;
+
     [SerializeField]
     private float moveSpeed = 5f;
     [SerializeField]
     private Bow bow;
-    [SerializeField]
-    private LineRenderer lineRenderer;
     [SerializeField]
     private int linePoints = 25;
     [SerializeField, Min(0.1f)]
@@ -65,6 +65,15 @@ public class PlayerInput : MonoBehaviour
 
         CheckCharging();
         DrawProjectileTrace();
+
+        if(isCharging)
+        {
+            animator.SetBool("bIsCharging", true);
+        }
+        else
+        {
+            animator.SetBool("bIsCharging", false);
+        }
     }
 
     private void FixedUpdate()
