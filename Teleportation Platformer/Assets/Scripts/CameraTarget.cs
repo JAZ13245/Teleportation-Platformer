@@ -20,7 +20,7 @@ public class CameraTarget : MonoBehaviour
     {
         Vector3 playerPos = player.gameObject.transform.position;
 
-        if (lineRenderer.enabled && player.chargeAmt > 0.5)
+        if (lineRenderer.enabled && player.chargeAmt > 0.1)
         {
             /*Vector3 lastPost = lineRenderer.GetPosition(lineRenderer.positionCount - 1);
 
@@ -28,7 +28,7 @@ public class CameraTarget : MonoBehaviour
             diff = Vector3.ClampMagnitude(diff, threshold);
             transform.position = playerPos + diff;*/
 
-            transform.position = playerPos + (player.shootDir * threshold);
+            transform.position = new Vector3(playerPos.x + (player.shootDir.x * threshold), playerPos.y + (player.shootDir.y * threshold/1.5f));
         }
         else
         {

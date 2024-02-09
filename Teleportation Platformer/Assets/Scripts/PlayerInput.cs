@@ -15,7 +15,8 @@ public class PlayerInput : MonoBehaviour
     public bool isCharging = false;
     [HideInInspector]
     public Vector3 shootDir = Vector3.zero;
-    [HideInInspector] public float chargeAmt = 0f;
+    public float chargeAmt = 0f;
+    public float distance = 0f;
 
     [SerializeField]
     private float moveSpeed = 5f;
@@ -133,6 +134,9 @@ public class PlayerInput : MonoBehaviour
             
             chargeAmt = Mathf.Clamp01(chargeRate * Vector2.Distance(playerScreenPos, curMousePos));
 
+            //chargeAmt = Mathf.Clamp01(Mathf.Log(Vector2.Distance(playerScreenPos, curMousePos)-50, 5f));
+            //chargeAmt = Mathf.Clamp01(Mathf.Pow(1.1f, Vector2.Distance(playerScreenPos, curMousePos) - 200));
+            distance = Vector2.Distance(playerScreenPos, curMousePos);
 
             isCharging = true;
         }
