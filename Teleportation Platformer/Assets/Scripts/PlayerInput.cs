@@ -9,6 +9,13 @@ using UnityEngine.VFX;
 public class PlayerInput : MonoBehaviour
 {
     public LineRenderer lineRenderer;
+    public Camera cam;
+
+    [HideInInspector]
+    public bool isCharging = false;
+    [HideInInspector]
+    public Vector3 shootDir = Vector3.zero;
+    [HideInInspector] public float chargeAmt = 0f;
 
     [SerializeField]
     private float moveSpeed = 5f;
@@ -28,10 +35,9 @@ public class PlayerInput : MonoBehaviour
 
     private bool isFacingRight = true;
 
-    private float chargeAmt = 0f;
-    private bool isCharging = false;
+    
     private Vector2 mousePosOnShoot = Vector2.zero;
-    private Vector3 shootDir = Vector3.zero;
+    
 
     private void Awake()
     {
@@ -113,23 +119,32 @@ public class PlayerInput : MonoBehaviour
     }
     private void CheckCharging()
     {
-        if(inputActions.Gameplay.Shoot.IsPressed())
+        Vector2 playerScreenPos = cam.WorldToScreenPoint(transform.position);
+        if (inputActions.Gameplay.Shoot.IsPressed())
         {
-            Vector2 curMousePos = Mouse.current.position.ReadValue();
-            
-            chargeAmt = Mathf.Clamp01(chargeRate * Vector2.Distance(mousePosOnShoot, curMousePos));
+            if(!isCharging)
+            {
+                Mouse.current.WarpCursorPosition(playerScreenPos);
+            }
 
-            if(chargeAmt > 0.05)
-                isCharging = true;
+            Vector2 curMousePos = Mouse.current.position.ReadValue();
+
+            //chargeAmt = Mathf.Clamp01(chargeRate * Vector2.Distance(mousePosOnShoot, curMousePos));
+            
+            chargeAmt = Mathf.Clamp01(chargeRate * Vector2.Distance(playerScreenPos, curMousePos));
+
+
+            isCharging = true;
         }
         else
         {
-            if(chargeAmt > 0.05)
+            if(isCharging)
             {
                 ShootBow();
             }
             isCharging = false;
             chargeAmt = 0;
+            //Mouse.current.WarpCursorPosition(playerScreenPos);
         }
     }
 
@@ -182,8 +197,8 @@ public class PlayerInput : MonoBehaviour
         //((Vector2)worldPosition - (Vector2)bow.transform.cmpPosition).normalized;
 
         Vector2 curMousePos = Mouse.current.position.ReadValue();
-
-        return (mousePosOnShoot - curMousePos).normalized;
+        Vector2 playerScreenPos = cam.WorldToScreenPoint(transform.position);
+        return (playerScreenPos - curMousePos).normalized;
     }
 
     private void FlipSpriteIfNeeded(Vector3 cmpPosition)
