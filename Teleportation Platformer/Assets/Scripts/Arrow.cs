@@ -6,6 +6,7 @@ public class Arrow : MonoBehaviour
 {
     public float arrowSpeed = 0f;
     public Vector3 arrowDirection = Vector3.zero;
+    public float damage = 100f;
 
     private Rigidbody2D rb;
 
