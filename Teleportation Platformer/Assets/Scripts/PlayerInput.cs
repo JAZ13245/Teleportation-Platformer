@@ -9,6 +9,14 @@ using UnityEngine.VFX;
 public class PlayerInput : MonoBehaviour
 {
     public LineRenderer lineRenderer;
+    public LineRenderer controlsLineRenderer;
+    public Camera cam;
+    public LayerMask layerMask;
+
+    [HideInInspector]
+    public float chargeAmt = 0f;
+    [HideInInspector]
+    public Vector3 shootDir = Vector3.zero;
 
     [SerializeField]
     private float moveSpeed = 5f;
@@ -159,7 +167,7 @@ public class PlayerInput : MonoBehaviour
 
             Vector3 lastPos = lineRenderer.GetPosition(i - 1);
 
-            RaycastHit2D hit = Physics2D.Raycast(lastPos, (point - lastPos).normalized, (point - lastPos).magnitude, LayerMask.NameToLayer("Visible"));
+            RaycastHit2D hit = Physics2D.Raycast(lastPos, (point - lastPos).normalized, (point - lastPos).magnitude, layerMask.value);
             if(hit)
             {
                 lineRenderer.SetPosition(i, hit.point);

@@ -38,7 +38,7 @@ public class Arrow : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.GetComponent<TeleportPoint>() == null)
+        if(collision.gameObject.GetComponent<TeleportPoint>() == null && collision.gameObject.GetComponent<Mirror>() == null)
         {
             DestroyArrow();
         }
