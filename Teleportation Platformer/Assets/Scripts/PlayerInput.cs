@@ -9,6 +9,13 @@ using UnityEngine.VFX;
 public class PlayerInput : MonoBehaviour
 {
     public LineRenderer lineRenderer;
+    public LineRenderer controlsLineRenderer;
+    public Camera cam;
+
+    [HideInInspector]
+    public float chargeAmt = 0f;
+    [HideInInspector]
+    public Vector3 shootDir = Vector3.zero;
 
     [SerializeField]
     private float moveSpeed = 5f;
@@ -28,10 +35,8 @@ public class PlayerInput : MonoBehaviour
 
     private bool isFacingRight = true;
 
-    private float chargeAmt = 0f;
     private bool isCharging = false;
     private Vector2 mousePosOnShoot = Vector2.zero;
-    private Vector3 shootDir = Vector3.zero;
 
     private void Awake()
     {
@@ -65,6 +70,7 @@ public class PlayerInput : MonoBehaviour
 
         CheckCharging();
         DrawProjectileTrace();
+        DrawControlsLine();
 
         if(isCharging)
         {
@@ -74,6 +80,35 @@ public class PlayerInput : MonoBehaviour
         {
             animator.SetBool("bIsCharging", false);
         }
+    }
+
+    private void DrawControlsLine()
+    {
+        if (!isCharging)
+        {
+            controlsLineRenderer.enabled = false;
+            return;
+        }
+
+        controlsLineRenderer.enabled = true;
+        controlsLineRenderer.positionCount = linePoints + 1;
+
+        Vector2 startPos = cam.ScreenToWorldPoint(mousePosOnShoot);
+
+        Vector2 endPos = cam.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+        Vector2 direction = endPos - startPos;
+
+        int i = 0;
+        controlsLineRenderer.SetPosition(i, startPos);
+
+        for(i = 1; i <= linePoints; i++)
+        {
+            Vector2 pos = startPos + (i / linePoints) * direction;
+            controlsLineRenderer.SetPosition(i, pos);
+        }
+
+
+
     }
 
     private void FixedUpdate()
