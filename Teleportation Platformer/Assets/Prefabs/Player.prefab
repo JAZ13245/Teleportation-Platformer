@@ -233,7 +233,7 @@ MonoBehaviour:
   cam: {fileID: 0}
   layerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
   chargeAmt: 0
   shootDir: {x: 0, y: 0, z: 0}
   moveSpeed: 8
