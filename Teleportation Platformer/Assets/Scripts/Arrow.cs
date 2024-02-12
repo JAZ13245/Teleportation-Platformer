@@ -6,6 +6,7 @@ public class Arrow : MonoBehaviour
 {
     public float arrowSpeed = 0f;
     public Vector3 arrowDirection = Vector3.zero;
+    public float damage = 100f;
 
     private Rigidbody2D rb;
 
@@ -37,7 +38,7 @@ public class Arrow : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.GetComponent<TeleportPoint>() == null)
+        if(collision.gameObject.GetComponent<TeleportPoint>() == null && collision.gameObject.GetComponent<Mirror>() == null)
         {
             DestroyArrow();
         }
