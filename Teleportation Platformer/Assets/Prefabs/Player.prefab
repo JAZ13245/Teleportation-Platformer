@@ -165,6 +165,7 @@ GameObject:
   - component: {fileID: 7340530932157842826}
   - component: {fileID: 3621702647201873444}
   - component: {fileID: 886311979112047398}
+  - component: {fileID: 547403783944654127}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -187,7 +188,7 @@ Transform:
   - {fileID: 6096619495870967670}
   - {fileID: 4097173472060309386}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &7340530932157842826
 Rigidbody2D:
@@ -241,6 +242,7 @@ MonoBehaviour:
   linePoints: 25
   timeBetweenPoints: 0.1
   chargeRate: 0.01
+  maxControlLineLength: 5
 --- !u!120 &886311979112047398
 LineRenderer:
   serializedVersion: 2
@@ -345,6 +347,19 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
+--- !u!114 &547403783944654127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3216295614054147154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a3691cf15828cc45982d4ece4dc2cdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
 --- !u!1 &6170249717663239133
 GameObject:
   m_ObjectHideFlags: 0
@@ -539,7 +554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4764796052318907496, guid: 419fac9a038b4de4ebc7e71ee45a2801, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.56
+      value: 0.484
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

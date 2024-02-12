@@ -8,7 +8,6 @@ public class Mirror : MonoBehaviour
     private MirrorTrigger trigger;
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("arrow col");
         Arrow arrow = collision.gameObject.GetComponent<Arrow>();
         if (arrow == null) return;
 
