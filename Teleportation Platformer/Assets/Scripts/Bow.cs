@@ -4,16 +4,28 @@ using UnityEngine;
 
 public class Bow : MonoBehaviour
 {
+    public Transform _shootPoint;
+    public float minShootSpeed = 2f;
+    public float maxShootSpeed = 15f;
+
     [SerializeField]
     private GameObject _arrow;
-    [SerializeField]
-    private Transform _shootPoint;
 
-    public void ShootArrow(Vector3 targetPoint)
+
+    public void ShootArrow(Vector3 shootDir, float chargeAmt)
     {
-        Vector3 forwardVec = (targetPoint - transform.position).normalized;
-        Vector3 upVec = Vector3.Cross(forwardVec, new Vector3(0, 0, 1));
-        Quaternion rot = Quaternion.LookRotation(forwardVec, upVec);
-        Instantiate(_arrow, _shootPoint.position, rot);
+        GameObject arrowGO = Instantiate(_arrow, _shootPoint.position + shootDir, Quaternion.identity);
+        Arrow arrow = arrowGO.GetComponent<Arrow>();
+        if(arrow != null )
+        {
+            arrow.arrowSpeed = GetBowPower(chargeAmt);
+            arrow.arrowDirection = shootDir;
+            arrow.OnFire();
+        }
+    }
+
+    private float GetBowPower(float chargeAmt)
+    {
+        return Mathf.Lerp(minShootSpeed, maxShootSpeed, chargeAmt);
     }
 }
