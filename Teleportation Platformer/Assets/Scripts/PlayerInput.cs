@@ -72,6 +72,7 @@ public class PlayerInput : MonoBehaviour
         CheckCharging();
         DrawProjectileTrace();
         DrawControlsLine();
+        CheckFalling();
 
         if(isCharging)
         {
@@ -82,6 +83,7 @@ public class PlayerInput : MonoBehaviour
             animator.SetBool("bIsCharging", false);
         }
     }
+
 
     private void DrawControlsLine()
     {
@@ -240,5 +242,16 @@ public class PlayerInput : MonoBehaviour
     private void ShootBow()
     {
         bow.ShootArrow(shootDir, chargeAmt);
+    }
+    private void CheckFalling()
+    {
+        if(rb.velocity.y < -0.05)
+        {
+            animator.SetBool("bIsFalling", true);
+        }
+        else
+        {
+            animator.SetBool("bIsFalling", false);
+        }
     }
 }
