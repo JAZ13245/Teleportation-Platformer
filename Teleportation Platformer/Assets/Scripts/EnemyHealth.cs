@@ -5,12 +5,16 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     [SerializeField]
+    bool isIndestructable = false;
+    [SerializeField]
     private float health = 1f;
+    [SerializeField]
+    private float damage = 100f;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Arrow arrow = collision.gameObject.GetComponent<Arrow>();
-        if (arrow != null)
+        if (arrow != null && !isIndestructable)
         {
             health -= arrow.damage;
             if(health < 0f)
@@ -22,10 +26,10 @@ public class EnemyHealth : MonoBehaviour
             }
         }
 
-        PlayerInput playerInput = collision.gameObject.GetComponent<PlayerInput>();
-        if(playerInput != null )
+        PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
+        if(playerHealth != null )
         {
-            // decrease player health.
+            playerHealth.UpdateHealth(damage);
         }
     }
 }

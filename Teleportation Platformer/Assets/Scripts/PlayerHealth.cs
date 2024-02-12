@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public GameObject DeathScreen;
     public float health = 100f;
 
     private Animator animator;
+    private PlayerInput player;
 
     private void Start()
     {
         animator = GetComponentInChildren<Animator>();
+        player = GetComponent<PlayerInput>();
     }
     public void UpdateHealth(float damage)
     {
@@ -18,13 +21,19 @@ public class PlayerHealth : MonoBehaviour
 
         if(health <= 0)
         {
-            animator.SetBool("bIsDead", true);
-            HandleDeath();
+            StartCoroutine("HandleDeath");
         }
     }
 
-    private void HandleDeath()
+    IEnumerator HandleDeath()
     {
         // Add death logic here.
+        animator.SetBool("bIsDead", true);
+        player.inputActions.Gameplay.Movement.Disable();
+        player.inputActions.Gameplay.Shoot.Disable();
+        yield return new WaitForSeconds(3f);
+
+        DeathScreen.SetActive(true);
+
     }
 }

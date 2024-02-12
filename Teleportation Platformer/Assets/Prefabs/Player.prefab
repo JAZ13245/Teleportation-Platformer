@@ -188,7 +188,7 @@ Transform:
   - {fileID: 6096619495870967670}
   - {fileID: 4097173472060309386}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &7340530932157842826
 Rigidbody2D:
@@ -242,6 +242,7 @@ MonoBehaviour:
   linePoints: 25
   timeBetweenPoints: 0.1
   chargeRate: 0.01
+  maxControlLineLength: 5
 --- !u!120 &886311979112047398
 LineRenderer:
   serializedVersion: 2
@@ -553,7 +554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4764796052318907496, guid: 419fac9a038b4de4ebc7e71ee45a2801, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.56
+      value: 0.484
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
