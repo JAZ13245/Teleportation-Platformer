@@ -42,10 +42,7 @@ public class Checkpoint : MonoBehaviour
             {
                 savedPos = startPos;
             }
-            else if(savedPos != startPos)//moves player to last non-start position
-            {
-                player.transform.position = savedPos;
-            }
+            player.transform.position = savedPos;
         }
 
         //checks for checkpoints and saves if there
@@ -54,16 +51,45 @@ public class Checkpoint : MonoBehaviour
             checkpoints = GameObject.FindGameObjectsWithTag("Checkpoint");
         }
     }
-
+    // called second
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (GameObject.FindGameObjectWithTag("Player") != null)
+        {
+            player = GameObject.FindGameObjectWithTag("Player");
+            player.transform.position = savedPos;
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
-
+        //checks if there is a player and saves if so
+       /* GameObject temp = GameObject.FindGameObjectWithTag("Player");
+        if (temp != null)
+        {
+            player = temp;
+            player.transform.position = savedPos;
+        }*/
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(player == null)
+        {
+            if (GameObject.FindGameObjectWithTag("Player") != null)
+            {
+                player = GameObject.FindGameObjectWithTag("Player");
+                player.transform.position = savedPos;
+            }
+
+            //checks for checkpoints and saves if there
+            if (GameObject.FindGameObjectsWithTag("Checkpoint") != null)
+            {
+                checkpoints = GameObject.FindGameObjectsWithTag("Checkpoint");
+            }
+        }
+
         if(checkpoints != null)//checks if there are checkpoints
         {
             //runs through all the checkpoints
@@ -120,14 +146,10 @@ public class Checkpoint : MonoBehaviour
 
         SceneManager.LoadScene(4, LoadSceneMode.Single);//loads temp testing scene
 
-        if (GameObject.FindGameObjectWithTag("Player") != null)
+        /*if (GameObject.FindGameObjectWithTag("Player") != null)
         {
             player = GameObject.FindGameObjectWithTag("Player");
-
-            if (savedPos != startPos)//moves player to last non-start position
-            {
-                player.transform.position = savedPos;
-            }
-        }
+            player.transform.position = savedPos;
+        }*/
     }
 }
