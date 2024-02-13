@@ -8,6 +8,8 @@ public class HandEnv : MonoBehaviour
     private bool isFacingRight = true;
     private float randomStart;
 
+    public bool turnsToPlayer = false;
+
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -18,6 +20,8 @@ public class HandEnv : MonoBehaviour
 
     private void Update()
     {
+        if (!turnsToPlayer) return;
+
         if (isFacingRight && player.transform.position.x < transform.position.x) 
         {
             transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
