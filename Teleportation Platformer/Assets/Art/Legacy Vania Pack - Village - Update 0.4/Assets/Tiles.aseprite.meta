@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638433534853968291
+  platformSettingsDirtyTick: 638433628063764068
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -140,7 +140,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
   spriteSheetImportData:
-  - name: Tiles_0
+  - name: Stone Path 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -160,7 +160,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_1
+  - name: Stone Path 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -180,7 +180,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_2
+  - name: Stone Path 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -200,7 +200,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_3
+  - name: Stone Path 4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -220,7 +220,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_4
+  - name: Sky BG Cage
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -240,7 +240,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_5
+  - name: Sky BG
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -380,7 +380,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_12
+  - name: Sky BG Forest Corner 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -400,7 +400,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_13
+  - name: Sky BG Forest Edge 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -420,7 +420,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_14
+  - name: Sky BG Forest Corner 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -500,7 +500,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_18
+  - name: Wood Path 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -620,7 +620,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_24
+  - name: Door
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -628,30 +628,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 404
-      y: 324
-      width: 16
-      height: 16
+      y: 292
+      width: 32
+      height: 48
     spriteID: 3d53af86d07c3dd42bd9b61f115579b3
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_25
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 420
-      y: 324
-      width: 16
-      height: 16
-    spriteID: 3e56bdf71dfa8ee418535c0fc5fb0e11
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -900,7 +880,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_38
+  - name: Sky BG Forest Edge 4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -920,7 +900,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_39
+  - name: Forest Black
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -940,7 +920,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_40
+  - name: Sky BG Forest Edge 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -1152,46 +1132,6 @@ ScriptedImporter:
       width: 16
       height: 16
     spriteID: b4c0c93442827db499841e3c9b0a63ca
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_51
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 404
-      y: 308
-      width: 16
-      height: 16
-    spriteID: 9c1700e31db3c0749a86b50b1e3fa0d9
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_52
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 420
-      y: 308
-      width: 16
-      height: 16
-    spriteID: 3c25dcc54b48ad04f843a5de922a7f45
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1420,7 +1360,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_64
+  - name: Sky BG Forest Corner 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -1440,7 +1380,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_65
+  - name: Sky BG Forest Edge 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -1460,7 +1400,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_66
+  - name: Sky BG Forest Corner
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -1672,46 +1612,6 @@ ScriptedImporter:
       width: 16
       height: 16
     spriteID: f90caf6a17bf2844fa30ed31bdb8f6b6
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_77
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 404
-      y: 292
-      width: 16
-      height: 16
-    spriteID: 9988aed7f25cd09409c2a8862094a114
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_78
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 420
-      y: 292
-      width: 16
-      height: 16
-    spriteID: 44e9cef33a09bbd46b4eba63a4c02839
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1960,7 +1860,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_91
+  - name: Sky BG Forest Bend 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -1980,7 +1880,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_92
+  - name: Sky BG Forest Bend 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -2000,7 +1900,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_93
+  - name: Sky BG Tower Top
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -2220,7 +2120,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_104
+  - name: Fire
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -2240,7 +2140,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_105
+  - name: Int Thin Window
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -2248,9 +2148,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 420
-      y: 276
+      y: 260
       width: 16
-      height: 16
+      height: 32
     spriteID: 0379c432aa8f3714bb688633f93d9bc8
     spriteBone: []
     spriteOutline: []
@@ -2500,7 +2400,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_118
+  - name: Sky BG Forest Bend 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -2520,7 +2420,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_119
+  - name: Sky BG Forest Bend 4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -2540,7 +2440,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_120
+  - name: Sky BG Tower Middle
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -2560,7 +2460,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_121
+  - name: Underground Rocks 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -2580,7 +2480,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_122
+  - name: Int Window 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -2588,9 +2488,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 260
-      y: 260
+      y: 244
       width: 16
-      height: 16
+      height: 32
     spriteID: 614a8fd8f41e02b4aa9808d19965e186
     spriteBone: []
     spriteOutline: []
@@ -2660,7 +2560,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_126
+  - name: Wood Column Top
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -2669,7 +2569,7 @@ ScriptedImporter:
       serializedVersion: 2
       x: 324
       y: 260
-      width: 16
+      width: 48
       height: 16
     spriteID: 9bf0ab51c0dbaf44bbc8d6b48f450749
     spriteBone: []
@@ -2680,47 +2580,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_127
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 340
-      y: 260
-      width: 16
-      height: 16
-    spriteID: 4d0bd9ff685417649b06eb89f3376c2e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_128
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 356
-      y: 260
-      width: 16
-      height: 16
-    spriteID: 545f10b52b5d46c45ae0b8dbc3e0252d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_129
+  - name: Wood Column
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -2740,7 +2600,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_130
+  - name: Int Wide Window
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -2748,50 +2608,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 388
-      y: 260
-      width: 16
-      height: 16
+      y: 244
+      width: 32
+      height: 32
     spriteID: 5abc82de73fdfc0428db4b6a0c6eb67a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_131
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 404
-      y: 260
-      width: 16
-      height: 16
-    spriteID: 348b6c6365daad844a75b6d0523b4595
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_132
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 420
-      y: 260
-      width: 16
-      height: 16
-    spriteID: e49a6030e40243d4683e49be6e803310
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -3020,7 +2840,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_144
+  - name: Roof Spikes
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -3040,7 +2860,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_145
+  - name: Lamppost Top On
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -3060,7 +2880,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_146
+  - name: Lamppost Top Off
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -3080,7 +2900,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_147
+  - name: Sky BG Tower Bottom
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -3100,7 +2920,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_148
+  - name: Underground Rocks 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -3120,27 +2940,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_149
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 260
-      y: 244
-      width: 16
-      height: 16
-    spriteID: ee90fe484c365364babe65b467663acd
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_150
+  - name: Desk 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -3148,9 +2948,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 276
-      y: 244
-      width: 16
-      height: 16
+      y: 228
+      width: 48
+      height: 32
     spriteID: fb07eebad697cda408bbff81857c8208
     spriteBone: []
     spriteOutline: []
@@ -3160,47 +2960,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_151
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 292
-      y: 244
-      width: 16
-      height: 16
-    spriteID: 4ae4d9bbd46afba4fb8c03b431a3bdc5
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_152
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 308
-      y: 244
-      width: 16
-      height: 16
-    spriteID: a3523f7be21426f4b80f006cace51217
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_153
+  - name: Chair
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -3208,9 +2968,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 324
-      y: 244
+      y: 228
       width: 16
-      height: 16
+      height: 32
     spriteID: a58bc43d30d260d4e92bb52d8d4d5dd8
     spriteBone: []
     spriteOutline: []
@@ -3220,7 +2980,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_154
+  - name: Table
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -3228,9 +2988,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 340
-      y: 244
-      width: 16
-      height: 16
+      y: 228
+      width: 32
+      height: 32
     spriteID: 59a827e444388e841860e38364eea852
     spriteBone: []
     spriteOutline: []
@@ -3240,27 +3000,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_155
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 356
-      y: 244
-      width: 16
-      height: 16
-    spriteID: 2d768de34be05e544a899f20c6a43dca
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_156
+  - name: End Table
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -3268,9 +3008,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 372
-      y: 244
+      y: 228
       width: 16
-      height: 16
+      height: 32
     spriteID: 4c6e41ae10fa23445b68471291a3173a
     spriteBone: []
     spriteOutline: []
@@ -3280,47 +3020,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_157
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 388
-      y: 244
-      width: 16
-      height: 16
-    spriteID: aadc181b41827544dadeeb24b3ee5477
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_158
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 404
-      y: 244
-      width: 16
-      height: 16
-    spriteID: b4e87a656bf2126458c190c0fa2ae3c1
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_159
+  - name: Box
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -3580,7 +3280,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_172
+  - name: Lamppost Middle
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -3600,7 +3300,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_173
+  - name: Sky BG Tower Bridge
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -3640,7 +3340,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_175
+  - name: Underground Rocks 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -3660,7 +3360,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_176
+  - name: Sky BG Spikes
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -3680,147 +3380,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_177
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 276
-      y: 228
-      width: 16
-      height: 16
-    spriteID: 05e3c34efde3b4748bf6841951ea0d6b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_178
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 292
-      y: 228
-      width: 16
-      height: 16
-    spriteID: 60291d31b6aa09d4e8b04e18441a0603
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_179
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 308
-      y: 228
-      width: 16
-      height: 16
-    spriteID: ec5dc8631b7c5e44683336867ae07c98
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_180
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 324
-      y: 228
-      width: 16
-      height: 16
-    spriteID: de597c53998c63d49817971f49f9645d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_181
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 340
-      y: 228
-      width: 16
-      height: 16
-    spriteID: f736083e939f1634198b08bea90389dd
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_182
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 356
-      y: 228
-      width: 16
-      height: 16
-    spriteID: f6079247a4e4b2140ad7523db53f3be1
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_183
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 372
-      y: 228
-      width: 16
-      height: 16
-    spriteID: b096ffe41fbecca4a9d88bbcfbc180f2
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_184
+  - name: Ledge
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -3840,7 +3400,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_185
+  - name: Wood Corner Arch 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -3860,7 +3420,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_186
+  - name: Wood Corner Arch 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -4120,7 +3680,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_199
+  - name: Lamppost Bottom
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -4140,7 +3700,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_200
+  - name: BG Building Black
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -4160,7 +3720,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_201
+  - name: BG Building Top Right
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -4220,7 +3780,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_204
+  - name: Bookshelf
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -4228,30 +3788,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 276
-      y: 212
-      width: 16
-      height: 16
+      y: 180
+      width: 32
+      height: 48
     spriteID: 16ba57aadceee3c46b06c18747b2e851
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_205
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 292
-      y: 212
-      width: 16
-      height: 16
-    spriteID: 7168a4ee923828547af1d3a817fe2090
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -4280,7 +3820,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_207
+  - name: Door Sideview
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -4288,9 +3828,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 324
-      y: 212
+      y: 180
       width: 16
-      height: 16
+      height: 48
     spriteID: 70cd4937678e3ce478435b6a7b83af60
     spriteBone: []
     spriteOutline: []
@@ -4320,7 +3860,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_209
+  - name: Shelf 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -4340,7 +3880,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_210
+  - name: Shelf 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -4360,7 +3900,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_211
+  - name: Shealf 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -4380,7 +3920,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_212
+  - name: Skulls 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -4400,7 +3940,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_213
+  - name: Skulls 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -4420,7 +3960,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_214
+  - name: Windows Stone
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -4428,9 +3968,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 196
-      width: 16
-      height: 16
+      y: 180
+      width: 32
+      height: 32
     spriteID: b56509090e77ac14dbde0a2f16e232b3
     spriteBone: []
     spriteOutline: []
@@ -4440,27 +3980,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_215
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 20
-      y: 196
-      width: 16
-      height: 16
-    spriteID: 0339d3de4e753594ab042dd1d35eac30
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_216
+  - name: Door Stone
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -4468,9 +3988,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 36
-      y: 196
-      width: 16
-      height: 16
+      y: 164
+      width: 32
+      height: 48
     spriteID: 01f8d1ed1630db544a63a5f7d6320d4e
     spriteBone: []
     spriteOutline: []
@@ -4480,27 +4000,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_217
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 52
-      y: 196
-      width: 16
-      height: 16
-    spriteID: 926ea7997c1d0f649ac1bef4f2a3f115
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_218
+  - name: Windows Wood
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -4508,30 +4008,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 68
-      y: 196
-      width: 16
-      height: 16
+      y: 180
+      width: 32
+      height: 32
     spriteID: 462f4b1d7602a114c9414c79bc4f7e2e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_219
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 84
-      y: 196
-      width: 16
-      height: 16
-    spriteID: 6d5fa888ce7dde84092b43beee47b1a1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -4660,7 +4140,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_226
+  - name: Sky BG Tower Side
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -4680,7 +4160,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_227
+  - name: BG Building Window
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -4700,7 +4180,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_228
+  - name: BG Building Bottom Right
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -4760,46 +4240,6 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_231
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 276
-      y: 196
-      width: 16
-      height: 16
-    spriteID: d7110425663ca8c47b2cf97c2420839c
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_232
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 292
-      y: 196
-      width: 16
-      height: 16
-    spriteID: 9720b2c26d04f0e458d91b2dd8151c4a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
   - name: Tiles_233
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -4812,26 +4252,6 @@ ScriptedImporter:
       width: 16
       height: 16
     spriteID: bbb1f9a7e92702d479c7440599e11140
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_234
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 324
-      y: 196
-      width: 16
-      height: 16
-    spriteID: 9d158b950d4f8a34caa1ce6d6126d333
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -4860,7 +4280,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_236
+  - name: Pew
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -4868,9 +4288,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 356
-      y: 196
-      width: 16
-      height: 16
+      y: 180
+      width: 32
+      height: 32
     spriteID: 89e6a5e1f1706f74699be3136ed64ed4
     spriteBone: []
     spriteOutline: []
@@ -4880,27 +4300,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_237
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 372
-      y: 196
-      width: 16
-      height: 16
-    spriteID: f15f6a1f5519f9241950e74000838588
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_238
+  - name: Podium
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -4908,9 +4308,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 388
-      y: 196
-      width: 16
-      height: 16
+      y: 180
+      width: 32
+      height: 32
     spriteID: 43c6c8ea753991b45afb15775b90a946
     spriteBone: []
     spriteOutline: []
@@ -4920,147 +4320,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_239
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 404
-      y: 196
-      width: 16
-      height: 16
-    spriteID: d5522dde58f674e4886d7699b71f9ee7
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_240
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 180
-      width: 16
-      height: 16
-    spriteID: 10c2f6fac17642049bd620811eb1997e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_241
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 20
-      y: 180
-      width: 16
-      height: 16
-    spriteID: 3a113c558bf4a0a49bdbdc473c5e92bd
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_242
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 36
-      y: 180
-      width: 16
-      height: 16
-    spriteID: 1186579c9e6ad1c4bbe814e4a25014fa
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_243
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 52
-      y: 180
-      width: 16
-      height: 16
-    spriteID: 0ae0248430ca06e499a25accee593c15
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_244
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 68
-      y: 180
-      width: 16
-      height: 16
-    spriteID: af5e260fb0c13714a95f4bb03b6b0638
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_245
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 84
-      y: 180
-      width: 16
-      height: 16
-    spriteID: a5a4f77e2d741ba4c84b5f883149c790
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_246
+  - name: Long Window 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -5068,9 +4328,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 100
-      y: 180
+      y: 164
       width: 16
-      height: 16
+      height: 32
     spriteID: 7301a6fa8c051164c9d4883aa0e9dce2
     spriteBone: []
     spriteOutline: []
@@ -5080,7 +4340,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_247
+  - name: Long Window 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -5088,9 +4348,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 116
-      y: 180
+      y: 164
       width: 16
-      height: 16
+      height: 32
     spriteID: 1d403ecda54755641857d770b3072b8c
     spriteBone: []
     spriteOutline: []
@@ -5100,7 +4360,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_248
+  - name: Long Window 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -5108,9 +4368,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 132
-      y: 180
+      y: 164
       width: 16
-      height: 16
+      height: 32
     spriteID: 3befaafc1de709a498578e4e0a26f861
     spriteBone: []
     spriteOutline: []
@@ -5220,7 +4480,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_254
+  - name: Sky BG Tree Top 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -5240,7 +4500,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_255
+  - name: Rock
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -5260,7 +4520,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_256
+  - name: Mug
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -5272,146 +4532,6 @@ ScriptedImporter:
       width: 16
       height: 16
     spriteID: 09b83f732c22c5346b1ce8f82bb6fc9c
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_257
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 276
-      y: 180
-      width: 16
-      height: 16
-    spriteID: a01643ecdb7b1b84bb225defa0e5b41b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_258
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 292
-      y: 180
-      width: 16
-      height: 16
-    spriteID: 28ec66eb45cacd04e8afb93dd0417bda
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_259
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 324
-      y: 180
-      width: 16
-      height: 16
-    spriteID: 28616af2bbf411646920a83d10af3869
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_260
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 356
-      y: 180
-      width: 16
-      height: 16
-    spriteID: ea573988525c8674194d346079353803
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_261
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 372
-      y: 180
-      width: 16
-      height: 16
-    spriteID: 3f3de01f925dd974c80e503308d7b066
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_262
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 388
-      y: 180
-      width: 16
-      height: 16
-    spriteID: f1fa7401ee0784a41be3d9e642ab3b16
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_263
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 404
-      y: 180
-      width: 16
-      height: 16
-    spriteID: 5bcca5706fa96194fb23ebe7158f8bf2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -5460,47 +4580,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_266
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 36
-      y: 164
-      width: 16
-      height: 16
-    spriteID: feb9e79b0eef83f469f35f810d6bced9
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_267
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 52
-      y: 164
-      width: 16
-      height: 16
-    spriteID: 8550b42d69ee61f458e1eedc3ae251d9
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_268
+  - name: Door Wood
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -5508,90 +4588,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 68
-      y: 164
-      width: 16
-      height: 16
+      y: 132
+      width: 32
+      height: 48
     spriteID: 9cb9885d58e17e747b1dbd74931545e3
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_269
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 84
-      y: 164
-      width: 16
-      height: 16
-    spriteID: 8fcb951ebda34e04b9a959ac240b5aff
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_270
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 100
-      y: 164
-      width: 16
-      height: 16
-    spriteID: 822337c34d390e3459a1c2d9cdf879e9
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_271
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 116
-      y: 164
-      width: 16
-      height: 16
-    spriteID: af7fd900e706ecf4ead1d15f84caa3ec
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_272
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 132
-      y: 164
-      width: 16
-      height: 16
-    spriteID: 3cb6f7a4903d10f40bbb1b38e3118379
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -5640,7 +4640,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_275
+  - name: Small Cross
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -5700,7 +4700,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_278
+  - name: Sky BG Tree Middle 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -5720,7 +4720,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_279
+  - name: Chest
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -5729,7 +4729,7 @@ ScriptedImporter:
       serializedVersion: 2
       x: 244
       y: 164
-      width: 16
+      width: 32
       height: 16
     spriteID: a6dbd46e867ce0f46b78f7cefa9d918d
     spriteBone: []
@@ -5740,27 +4740,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_280
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 260
-      y: 164
-      width: 16
-      height: 16
-    spriteID: 499352c80730a5548a59e144796ecdff
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_281
+  - name: Bed
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -5768,29 +4748,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 276
-      y: 164
-      width: 16
-      height: 16
-    spriteID: 4b455865af36d0a4c820d7faea735928
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_282
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 308
-      y: 164
-      width: 16
-      height: 16
+      y: 148
+      width: 48
+      height: 32
     spriteID: b9b2a0f37f671af4aafecf5dff449d3f
     spriteBone: []
     spriteOutline: []
@@ -5800,7 +4760,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_283
+  - name: Chandelier
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -5808,9 +4768,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 324
-      y: 164
-      width: 16
-      height: 16
+      y: 148
+      width: 32
+      height: 32
     spriteID: f4b8310fb2a659e409908abf9858c3b3
     spriteBone: []
     spriteOutline: []
@@ -5820,27 +4780,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_284
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 340
-      y: 164
-      width: 16
-      height: 16
-    spriteID: bdd3c88f11f4bbe4b96f4189b69c6cd2
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_285
+  - name: Desk 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -5848,50 +4788,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 356
-      y: 164
-      width: 16
-      height: 16
+      y: 148
+      width: 48
+      height: 32
     spriteID: da3f4c3d38511b34aacb872fd976d7d2
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_286
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 372
-      y: 164
-      width: 16
-      height: 16
-    spriteID: fec76254ff93c3147b28e365c4ad0e45
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_287
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 388
-      y: 164
-      width: 16
-      height: 16
-    spriteID: fe2e5804c61faae4ca54f00ab4f99bc5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -5940,7 +4840,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_290
+  - name: Steep Stairs 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -5980,47 +4880,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_292
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 68
-      y: 148
-      width: 16
-      height: 16
-    spriteID: 070fe25abc048764e8ce0162a4f2a075
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_293
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 84
-      y: 148
-      width: 16
-      height: 16
-    spriteID: 92d62302445006a4183f05ca99fd31af
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_294
+  - name: Church Door 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -6028,9 +4888,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 100
-      y: 148
-      width: 16
-      height: 16
+      y: 100
+      width: 48
+      height: 64
     spriteID: 7e22348cd4211ec4787a50bad1516873
     spriteBone: []
     spriteOutline: []
@@ -6040,47 +4900,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_295
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 116
-      y: 148
-      width: 16
-      height: 16
-    spriteID: 4af5ffd052e913e4d86ea8ffbd945ee0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_296
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 132
-      y: 148
-      width: 16
-      height: 16
-    spriteID: 8b6c7583182d06b4b9d96c2b5fd1941b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_297
+  - name: Well
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -6088,50 +4908,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 148
-      y: 148
-      width: 16
-      height: 16
+      y: 84
+      width: 48
+      height: 80
     spriteID: baa3d541e3c89bf4e875848261199775
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_298
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 164
-      y: 148
-      width: 16
-      height: 16
-    spriteID: ade9378e9591cd74d899dbe3cd6de2ab
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_299
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 180
-      y: 148
-      width: 16
-      height: 16
-    spriteID: 9c46b43657f5e4849a9d74ebba11a1b0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -6200,7 +4980,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_303
+  - name: Grass 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -6220,7 +5000,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_304
+  - name: Grass 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -6232,166 +5012,6 @@ ScriptedImporter:
       width: 16
       height: 16
     spriteID: ea12c67fe6a6a5e4b84463cf6d5e0e5a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_305
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 276
-      y: 148
-      width: 16
-      height: 16
-    spriteID: dcc126717f0323b439987f8ee095f758
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_306
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 292
-      y: 148
-      width: 16
-      height: 16
-    spriteID: 65242eda450a7624b96c67c84bbbd071
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_307
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 308
-      y: 148
-      width: 16
-      height: 16
-    spriteID: a6727c17369d7954495c5a1c4c9d8539
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_308
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 324
-      y: 148
-      width: 16
-      height: 16
-    spriteID: ded211054ebe68d43a66f890f2753d43
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_309
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 340
-      y: 148
-      width: 16
-      height: 16
-    spriteID: d6b596aecc5186643a9cba2d4e5a41df
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_310
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 356
-      y: 148
-      width: 16
-      height: 16
-    spriteID: ac5e96501fc6ee94f9a8b3e83b3bbb9b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_311
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 372
-      y: 148
-      width: 16
-      height: 16
-    spriteID: 6e3183bb400be664bb0fc6b32e0eaab7
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_312
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 388
-      y: 148
-      width: 16
-      height: 16
-    spriteID: 381a54255ae51ab4b9d876e0c2924791
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -6440,7 +5060,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_315
+  - name: Steep Stairs 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -6480,166 +5100,6 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_317
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 68
-      y: 132
-      width: 16
-      height: 16
-    spriteID: cc3d2a16800784c4b8fc381018499c21
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_318
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 84
-      y: 132
-      width: 16
-      height: 16
-    spriteID: c160037e6dc95914f8fc51424311cca9
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_319
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 100
-      y: 132
-      width: 16
-      height: 16
-    spriteID: 9fc8817aa54c11942afa3144e77ca3f0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_320
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 116
-      y: 132
-      width: 16
-      height: 16
-    spriteID: a224b72d13ae8ef4b8c8837873c67b5f
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_321
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 132
-      y: 132
-      width: 16
-      height: 16
-    spriteID: 572b1b340344b894d82b0acbccc98d77
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_322
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 148
-      y: 132
-      width: 16
-      height: 16
-    spriteID: 8edbf14a8f09b1b4aab8a80e6efcd2cf
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_323
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 164
-      y: 132
-      width: 16
-      height: 16
-    spriteID: 3ea675f4cd957ca4689315070d9e3db1
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_324
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 180
-      y: 132
-      width: 16
-      height: 16
-    spriteID: 9ed9cfa3edd42d749a05d8167177c641
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
   - name: Tiles_325
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -6660,7 +5120,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_326
+  - name: Sky BG Tree Top 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -6680,7 +5140,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_327
+  - name: Sky BG Tree Bottom 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -6800,7 +5260,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_333
+  - name: Goblet
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -6860,7 +5320,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_336
+  - name: Wood Pile 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -6880,7 +5340,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_337
+  - name: Wood Pile 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -6900,7 +5360,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_338
+  - name: Wood Pile 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -6940,126 +5400,6 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_340
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 100
-      y: 116
-      width: 16
-      height: 16
-    spriteID: 9c7db6ebb72ea12489b1612739f78069
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_341
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 116
-      y: 116
-      width: 16
-      height: 16
-    spriteID: 07d44a4d8141c014dab5d3a59686bb26
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_342
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 132
-      y: 116
-      width: 16
-      height: 16
-    spriteID: f842f0b7df9e9b943a33b26c9c1c18de
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_343
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 148
-      y: 116
-      width: 16
-      height: 16
-    spriteID: bdd454315799ae342bafaeca165e173a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_344
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 164
-      y: 116
-      width: 16
-      height: 16
-    spriteID: 1f49286732c4c4e4ca2353fcc3150f12
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_345
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 180
-      y: 116
-      width: 16
-      height: 16
-    spriteID: 9f5ec94a7cd06484cbe495aeef674a87
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
   - name: Tiles_346
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -7080,7 +5420,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_347
+  - name: Sky BG Tree Middle 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -7220,7 +5560,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_354
+  - name: Meat
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -7300,7 +5640,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_358
+  - name: Stairs 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -7320,7 +5660,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_359
+  - name: Stairs 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -7360,126 +5700,6 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_361
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 100
-      y: 100
-      width: 16
-      height: 16
-    spriteID: e1fb0536bcca06040860c868be2ca5ef
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_362
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 116
-      y: 100
-      width: 16
-      height: 16
-    spriteID: 9a68ad968b2d6f0488d62aeda0c09873
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_363
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 132
-      y: 100
-      width: 16
-      height: 16
-    spriteID: 6d876e8bf6372a64ea67d69d28ca92a2
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_364
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 148
-      y: 100
-      width: 16
-      height: 16
-    spriteID: 8fa3058148b74ff4f8724e4ed6adb900
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_365
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 164
-      y: 100
-      width: 16
-      height: 16
-    spriteID: d6aca56dcaf04694daeb5f6cf72068b2
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_366
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 180
-      y: 100
-      width: 16
-      height: 16
-    spriteID: 4955c994e2fba70428ccf269350374bf
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
   - name: Tiles_367
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -7500,7 +5720,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_368
+  - name: Sky BG Tree Bottom 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -7520,7 +5740,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_369
+  - name: Sky BG Slope 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -7580,17 +5800,17 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_372
+  - name: Large Cross
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 292
-      y: 100
-      width: 16
-      height: 16
+      x: 276
+      y: 52
+      width: 48
+      height: 64
     spriteID: 9a2bf9ce880571d4181198d6ac4f125d
     spriteBone: []
     spriteOutline: []
@@ -7720,7 +5940,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_379
+  - name: Gray Gate 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -7740,7 +5960,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_380
+  - name: Blue Gate 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -7760,7 +5980,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_381
+  - name: Broken Pot
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -7780,67 +6000,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_382
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 148
-      y: 84
-      width: 16
-      height: 16
-    spriteID: 187e20f16853a264990d91f714ed775f
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_383
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 164
-      y: 84
-      width: 16
-      height: 16
-    spriteID: 04e8ae1ee781a1c4a9f0234c1edbc8db
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_384
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 180
-      y: 84
-      width: 16
-      height: 16
-    spriteID: 1c4cfce085849df4bb99d480d32800a8
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_385
+  - name: Cage
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -7860,7 +6020,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_386
+  - name: Forest Branch
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -7880,7 +6040,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_387
+  - name: Sky BG Slope 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -7940,67 +6100,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_390
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 276
-      y: 84
-      width: 16
-      height: 16
-    spriteID: 162bcddb18e350f409354554bbe96e96
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_391
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 292
-      y: 84
-      width: 16
-      height: 16
-    spriteID: 8f312a048002ef24baa712d4d3ca86b2
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_392
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 308
-      y: 84
-      width: 16
-      height: 16
-    spriteID: a1576627468da93418bf89538b31cab0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_393
+  - name: Hanging Plant 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8120,7 +6220,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_399
+  - name: Gray Gate 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8140,7 +6240,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_400
+  - name: Blue Gate 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8160,7 +6260,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_401
+  - name: Potted Plant
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8180,7 +6280,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_402
+  - name: Well Underground 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8200,7 +6300,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_403
+  - name: Well Underground 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8220,7 +6320,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_404
+  - name: Well Underground 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8240,7 +6340,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_405
+  - name: Forest Peek
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8260,7 +6360,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_406
+  - name: Sky BG Overhang 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8280,7 +6380,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_407
+  - name: Sky BG Overhang 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8340,27 +6440,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_410
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 292
-      y: 68
-      width: 16
-      height: 16
-    spriteID: a9b68299f5f5c9341b7bfc656b9d8741
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_411
+  - name: Hanging Plant 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8520,7 +6600,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_419
+  - name: Pot
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8540,7 +6620,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_420
+  - name: Small Stairs 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8560,7 +6640,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_421
+  - name: Small Stairs 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8580,7 +6660,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_422
+  - name: Bench
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8589,7 +6669,7 @@ ScriptedImporter:
       serializedVersion: 2
       x: 180
       y: 52
-      width: 16
+      width: 48
       height: 16
     spriteID: 4b08989d4b50f4f49a533d257a180018
     spriteBone: []
@@ -8600,47 +6680,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_423
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 196
-      y: 52
-      width: 16
-      height: 16
-    spriteID: b20d066c21638a441a39c12d00532fc9
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_424
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 212
-      y: 52
-      width: 16
-      height: 16
-    spriteID: 87c7c258275ca134cadf71ed3d56bb67
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_425
+  - name: Brown Stone Wall Cracks
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8660,7 +6700,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_426
+  - name: Bible
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8680,27 +6720,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_427
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 292
-      y: 52
-      width: 16
-      height: 16
-    spriteID: 10668289038561c4e9f0bc43a23b980e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_428
+  - name: Hanging Plant 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8760,7 +6780,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_431
+  - name: Sky BG Cloud 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8780,7 +6800,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_432
+  - name: Sky BG Cloud 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8800,7 +6820,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_433
+  - name: Sky BG Cloud 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8880,7 +6900,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_437
+  - name: Blue Potion
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8900,7 +6920,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_438
+  - name: Red Potion
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8920,7 +6940,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_439
+  - name: Cross Item
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8940,7 +6960,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_440
+  - name: Brown Stone Wall 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8960,7 +6980,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_441
+  - name: Brown Stone Wall 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -8980,7 +7000,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_442
+  - name: Brown Stone Wall 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9000,7 +7020,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_443
+  - name: Brown Stone Wall Detail Top
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9020,7 +7040,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_444
+  - name: Sky BG Floating Tower 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9028,9 +7048,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 20
+      y: 4
       width: 16
-      height: 16
+      height: 32
     spriteID: 09e299b311a5bf040932bb5539bb728b
     spriteBone: []
     spriteOutline: []
@@ -9040,7 +7060,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_445
+  - name: Sky BG Floating Tower 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9060,7 +7080,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_446
+  - name: Int Window 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9068,9 +7088,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 36
-      y: 20
+      y: 4
       width: 16
-      height: 16
+      height: 32
     spriteID: e6328dae5539dc34984365987d3dd945
     spriteBone: []
     spriteOutline: []
@@ -9080,7 +7100,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_447
+  - name: Stone to Grass Path
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9100,7 +7120,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_448
+  - name: Grass Path 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9120,7 +7140,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_449
+  - name: Grass Path 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9140,7 +7160,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_450
+  - name: Grass Path 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9160,7 +7180,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_451
+  - name: Tombstone 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9180,7 +7200,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_452
+  - name: Tombstone 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9200,7 +7220,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_453
+  - name: Tombstone 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9220,7 +7240,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_454
+  - name: Tombstone 4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9240,7 +7260,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_455
+  - name: Heart Item
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9260,7 +7280,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_456
+  - name: Brown Stone Wall 4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9280,7 +7300,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_457
+  - name: Brown Stone Wall 5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9300,7 +7320,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_458
+  - name: Brown Stone Wall 6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9320,7 +7340,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_459
+  - name: Brown Stone Wall Detail Bottom
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9340,47 +7360,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_460
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4
-      width: 16
-      height: 16
-    spriteID: 66d59c4bbc3b8cb47aa1ff9ab22b0c74
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_461
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 36
-      y: 4
-      width: 16
-      height: 16
-    spriteID: 947124e185b6315419b85ad6f20c3603
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Tiles_462
+  - name: Grass to Stone Path
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9400,7 +7380,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_463
+  - name: Rock Path 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9420,7 +7400,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_464
+  - name: Rock Path 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9440,7 +7420,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_465
+  - name: Rock Path 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9460,7 +7440,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_466
+  - name: Rock Path 4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9480,7 +7460,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_467
+  - name: Large Tombstone 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9500,7 +7480,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_468
+  - name: Large Tombstone 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9520,7 +7500,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_469
+  - name: Paper
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9540,7 +7520,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_470
+  - name: Knife
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9560,7 +7540,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_471
+  - name: Brown Stone Wall 7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9580,7 +7560,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_472
+  - name: Brown Stone Wall 8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -9600,7 +7580,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Tiles_473
+  - name: Brown Stone Wall 9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
