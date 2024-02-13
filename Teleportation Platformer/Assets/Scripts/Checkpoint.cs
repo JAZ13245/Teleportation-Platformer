@@ -11,13 +11,13 @@ public class Checkpoint : MonoBehaviour
 
     //player info
     private GameObject player;
-    public Vector3 startPos = new Vector3(-32.45f, -3.75f, 0f);//again another magic number and im sorry
+    public Vector3 startPos;//again another magic number and im sorry
     public Vector3 savedPos;
     private float playerRadius = 0.8218632f;//this is a bandaid magic number sorry
 
     //checkpoint info
     private GameObject[] checkpoints;
-    private int checkpointRadius = 1;//also a bandaid
+    [SerializeField]                                                                                           private int checkpointRadius = 1;//also a bandaid
 
     private void Awake()
     {
@@ -34,7 +34,7 @@ public class Checkpoint : MonoBehaviour
 
         //checks if there is a player and saves if so
         if(GameObject.FindGameObjectWithTag("Player") != null)
-        {
+        {     
             player = GameObject.FindGameObjectWithTag("Player");
 
             //checks if there is not a saved position for the player and saves
@@ -42,7 +42,7 @@ public class Checkpoint : MonoBehaviour
             {
                 savedPos = startPos;
             }
-            player.transform.position = savedPos;
+            //player.transform.position = savedPos;
         }
 
         //checks for checkpoints and saves if there
@@ -51,25 +51,11 @@ public class Checkpoint : MonoBehaviour
             checkpoints = GameObject.FindGameObjectsWithTag("Checkpoint");
         }
     }
-    // called second
-    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        if (GameObject.FindGameObjectWithTag("Player") != null)
-        {
-            player = GameObject.FindGameObjectWithTag("Player");
-            player.transform.position = savedPos;
-        }
-    }
     // Start is called before the first frame update
     void Start()
     {
-        //checks if there is a player and saves if so
-       /* GameObject temp = GameObject.FindGameObjectWithTag("Player");
-        if (temp != null)
-        {
-            player = temp;
-            player.transform.position = savedPos;
-        }*/
+        player = GameObject.FindGameObjectWithTag("Player");
+        startPos = player.transform.position;
     }
 
     // Update is called once per frame
@@ -123,7 +109,7 @@ public class Checkpoint : MonoBehaviour
         Vector3 cCenter = c.GetComponent<SpriteRenderer>().bounds.center;
 
         //determines the distance between the centers of the player and the given checkpoint
-        float distance = (float)Math.Sqrt(Math.Pow(cCenter.x - pCenter.x, 2) + Math.Pow(cCenter.z - pCenter.z, 2));
+        float distance = (float)Math.Sqrt(Math.Pow(cCenter.x - pCenter.x, 2) + Math.Pow(cCenter.y - pCenter.y, 2));
 
         //checks if there is a collision, returns true if true
         if (distance < checkpointRadius + playerRadius)
