@@ -14,6 +14,11 @@ public class MenuSelect : MonoBehaviour
         SceneManager.LoadScene(1, LoadSceneMode.Single);//currently loads sample scene
     }
 
+    public void LoadScene(int buildIndex)
+    {
+        SceneManager.LoadScene(buildIndex);
+    }
+
     //returns to the menu scene
     public void LoadMenu()
     {
