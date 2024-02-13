@@ -120,6 +120,7 @@ GameObject:
   - component: {fileID: -544404805822004574}
   - component: {fileID: 4645971247686596781}
   - component: {fileID: 1064009940377086530}
+  - component: {fileID: 7548929372188003147}
   m_Layer: 0
   m_Name: Enemy_Flying
   m_TagString: Untagged
@@ -300,6 +301,21 @@ MonoBehaviour:
   PointC: {fileID: 1018793982309063271}
   PointD: {fileID: 2881935024413721432}
   speed: 2
+--- !u!114 &7548929372188003147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7688280961009657215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e664d65970ed958408f377cf3acbfc03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isIndestructable: 0
+  health: 1
+  damage: 100
 --- !u!1 &9094784818154462564
 GameObject:
   m_ObjectHideFlags: 0
