@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class EnemyPatrol : MonoBehaviour
 {
+    [SerializeField]
+    private Animator animator;
     public GameObject PointA;
     public GameObject PointB;
     private Rigidbody2D rb;
@@ -14,14 +16,14 @@ public class EnemyPatrol : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        currentPoint = PointB.transform;
+        currentPoint = PointA.transform;
     }
 
     // Update is called once per frame
     void Update()
     {
         Vector2 point = currentPoint.position - transform.position;
-        if (currentPoint ==PointB.transform)
+        if (currentPoint == PointB.transform)
         {
             rb.velocity = new Vector2(speed, 0);
         }
@@ -32,12 +34,20 @@ public class EnemyPatrol : MonoBehaviour
 
         if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == PointB.transform)
         {
+            flip();
             currentPoint = PointA.transform;
         }
 
         if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == PointA.transform)
         {
+            flip();
             currentPoint = PointB.transform;
         }
+    }
+    private void flip()
+    {
+        Vector3 localScale = transform.localScale;
+        localScale.x *= -1;
+        transform.localScale = localScale;
     }
 }
