@@ -4,12 +4,14 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.VFX;
 
 public class PlayerInput : MonoBehaviour
 {
     public LineRenderer lineRenderer;
     public LineRenderer controlsLineRenderer;
+
     public Camera cam;
     public LayerMask layerMask;
 
@@ -18,8 +20,7 @@ public class PlayerInput : MonoBehaviour
     [HideInInspector]
     public Vector3 shootDir = Vector3.zero;
 
-    [SerializeField]
-    private float moveSpeed = 5f;
+    public float moveSpeed = 5f;
     [SerializeField]
     private Bow bow;
     [SerializeField]
@@ -28,8 +29,10 @@ public class PlayerInput : MonoBehaviour
     private float timeBetweenPoints = 0.1f;
     [SerializeField, Min(0.01f)]
     private float chargeRate = 0.1f;
+    [SerializeField]
+    private float maxControlLineLength = 5f;
 
-    private InputActions inputActions = null;
+    public InputActions inputActions = null;
     private Vector2 moveVector = Vector2.zero;
     private Rigidbody2D rb = null;
     private Animator animator = null;
@@ -38,6 +41,7 @@ public class PlayerInput : MonoBehaviour
 
     private bool isCharging = false;
     private Vector2 mousePosOnShoot = Vector2.zero;
+    private int circlePoints = 64;
 
     private void Awake()
     {
@@ -53,6 +57,7 @@ public class PlayerInput : MonoBehaviour
         inputActions.Gameplay.Movement.canceled += OnMovementCancelled;
 
         inputActions.Gameplay.Shoot.performed += OnShootPerformed;
+        inputActions.Gameplay.Reset.performed += OnResetPerformed;
     }
 
     private void OnDisable()
@@ -62,6 +67,8 @@ public class PlayerInput : MonoBehaviour
         inputActions.Gameplay.Movement.canceled -= OnMovementCancelled;
 
         inputActions.Gameplay.Shoot.performed -= OnShootPerformed;
+        inputActions.Gameplay.Reset.performed -= OnResetPerformed;
+
 
 
     }
@@ -72,6 +79,7 @@ public class PlayerInput : MonoBehaviour
         CheckCharging();
         DrawProjectileTrace();
         DrawControlsLine();
+        CheckFalling();
 
         if(isCharging)
         {
@@ -82,6 +90,7 @@ public class PlayerInput : MonoBehaviour
             animator.SetBool("bIsCharging", false);
         }
     }
+
 
     private void DrawControlsLine()
     {
@@ -99,6 +108,8 @@ public class PlayerInput : MonoBehaviour
         Vector2 endPos = cam.ScreenToWorldPoint(Mouse.current.position.ReadValue());
         Vector2 direction = endPos - startPos;
 
+        direction = Vector2.ClampMagnitude(direction, maxControlLineLength);
+
         int i = 0;
         controlsLineRenderer.SetPosition(i, startPos);
 
@@ -108,9 +119,8 @@ public class PlayerInput : MonoBehaviour
             controlsLineRenderer.SetPosition(i, pos);
         }
 
-
-
     }
+
 
     private void FixedUpdate()
     {
@@ -133,6 +143,12 @@ public class PlayerInput : MonoBehaviour
     {
         mousePosOnShoot = Mouse.current.position.ReadValue();
     }
+
+    private void OnResetPerformed(InputAction.CallbackContext context)
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
 
     private void CheckMovementFlip(Vector2 moveVector)
     {
@@ -179,13 +195,14 @@ public class PlayerInput : MonoBehaviour
 
         lineRenderer.enabled = true;
         lineRenderer.positionCount = Mathf.CeilToInt(linePoints/timeBetweenPoints) + 1;
-        Vector3 startPos = bow._shootPoint.position;
         shootDir = GetShootDirection();
-        Vector3 startVelocity = GetBowPower() * shootDir;
+        Vector3 startPos = bow._shootPoint.position + shootDir;
+        Vector3 startVelocity = (GetBowPower() * shootDir);
         int i = 0;
         lineRenderer.SetPosition(i, startPos);
 
-        for(float t = 0; t < linePoints; t += timeBetweenPoints)
+
+        for (float t = 0; t < linePoints; t += timeBetweenPoints)
         {
             i++;
             Vector3 point = startPos + t * startVelocity;
@@ -241,4 +258,17 @@ public class PlayerInput : MonoBehaviour
     {
         bow.ShootArrow(shootDir, chargeAmt);
     }
+    private void CheckFalling()
+    {
+        if(rb.velocity.y < -0.05)
+        {
+            animator.SetBool("bIsFalling", true);
+        }
+        else
+        {
+            animator.SetBool("bIsFalling", false);
+        }
+    }
+
+
 }
