@@ -6,10 +6,14 @@ public class HandEnv : MonoBehaviour
 {
     private GameObject player;
     private bool isFacingRight = true;
+    private float randomStart;
 
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+
+        randomStart = Random.Range(.5f, 1.5f);
+        this.transform.GetComponentInChildren<Animator>().speed = randomStart;
     }
 
     private void Update()
