@@ -27,7 +27,7 @@ public class PlayerInput : MonoBehaviour
     private int linePoints = 25;
     [SerializeField, Min(0.1f)]
     private float timeBetweenPoints = 0.1f;
-    [SerializeField, Min(0.01f)]
+    [SerializeField]
     private float chargeRate = 0.1f;
     [SerializeField]
     private float maxControlLineLength = 5f;
@@ -168,18 +168,17 @@ public class PlayerInput : MonoBehaviour
         if(inputActions.Gameplay.Shoot.IsPressed())
         {
             Vector2 curMousePos = Mouse.current.position.ReadValue();
-            
-            chargeAmt = Mathf.Clamp01(chargeRate * Vector2.Distance(mousePosOnShoot, curMousePos));
+            float dist = Vector2.Distance(mousePosOnShoot, curMousePos);
+            chargeAmt = Mathf.Clamp01(chargeRate * dist);
 
-            if(chargeAmt > 0.05)
-                isCharging = true;
+
+            isCharging = true;
         }
         else
         {
-            if(chargeAmt > 0.05)
-            {
+
+            if(isCharging)
                 ShootBow();
-            }
             isCharging = false;
             chargeAmt = 0;
         }
