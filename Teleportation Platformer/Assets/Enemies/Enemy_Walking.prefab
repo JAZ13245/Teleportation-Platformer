@@ -219,7 +219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df082cb0ac89e3f4083174fbf4154433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportYOffest: 0
+  _teleportYOffest: 0.01
 --- !u!114 &-8904453618469440589
 MonoBehaviour:
   m_ObjectHideFlags: 0
