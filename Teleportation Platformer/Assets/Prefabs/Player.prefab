@@ -188,7 +188,7 @@ Transform:
   - {fileID: 6096619495870967670}
   - {fileID: 4097173472060309386}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &7340530932157842826
 Rigidbody2D:
@@ -241,8 +241,8 @@ MonoBehaviour:
   bow: {fileID: 7424774686167793216}
   linePoints: 25
   timeBetweenPoints: 0.1
-  chargeRate: 0.01
-  maxControlLineLength: 5
+  chargeRate: 0.005
+  maxControlLineLength: 8
 --- !u!120 &886311979112047398
 LineRenderer:
   serializedVersion: 2
@@ -296,7 +296,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.08333333
+        value: 0.05917874
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -359,6 +359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a3691cf15828cc45982d4ece4dc2cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathScreen: {fileID: 0}
   health: 100
 --- !u!1 &6170249717663239133
 GameObject:
