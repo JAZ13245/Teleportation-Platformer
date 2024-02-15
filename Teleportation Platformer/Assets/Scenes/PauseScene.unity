@@ -679,6 +679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0d06d563731cc1418ce5af9493865fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerScene: 3
 --- !u!4 &1252339315
 Transform:
   m_ObjectHideFlags: 0
@@ -780,7 +781,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1252339314}
         m_TargetAssemblyTypeName: MenuSelect, Assembly-CSharp
-        m_MethodName: LoadMenu
+        m_MethodName: ExitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

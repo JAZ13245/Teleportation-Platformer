@@ -8,10 +8,11 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class MenuSelect : MonoBehaviour
 {
+    public int playerScene = 3;
     public void LoadMain()
     {
         //to change the scene this loads go into build settings and figure out the number for the scene you want and put that here
-        SceneManager.LoadScene(1, LoadSceneMode.Single);//currently loads sample scene
+        SceneManager.LoadScene(playerScene, LoadSceneMode.Single);//currently loads sample scene
     }
 
     public void LoadScene(int buildIndex)
@@ -28,18 +29,29 @@ public class MenuSelect : MonoBehaviour
     //returns to the options scene
     public void LoadOptions()
     {
-        SceneManager.LoadScene(2, LoadSceneMode.Single);
+        SceneManager.LoadScene(1, LoadSceneMode.Single);
     }
 
     //goes to the pause scene after 'esc' is pressed
     public void OnPause()
     {
-        SceneManager.LoadScene(3, LoadSceneMode.Single);
+        SceneManager.LoadScene(2, LoadSceneMode.Single);
+    }
+
+    public void LoadControls()
+    {
+        SceneManager.LoadScene(4, LoadSceneMode.Single);
     }
 
     //for testing purposes this loads CarrieUITest scene
     public void LoadTemp()
     {
-        SceneManager.LoadScene(4, LoadSceneMode.Single);
+        SceneManager.LoadScene(playerScene, LoadSceneMode.Single);
+    }
+
+    //this closes the game window
+    public void ExitGame()
+    {
+        Application.Quit();
     }
 }
