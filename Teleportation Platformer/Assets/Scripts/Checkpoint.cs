@@ -97,6 +97,11 @@ public class Checkpoint : MonoBehaviour
         if(c.GetComponent<SpriteRenderer>().color != Color.green)
         {
             c.GetComponent<SpriteRenderer>().color = Color.green;
+            int children = c.transform.childCount;//gets number of children
+            for (int i = 0; i < children; i++)//loops through and turns them green
+            {
+                c.transform.GetChild(i).GetComponent<SpriteRenderer>().color = Color.green;
+            }
             savedPos = new Vector3(c.transform.position.x, c.transform.position.y, 0f);
         }
     }
