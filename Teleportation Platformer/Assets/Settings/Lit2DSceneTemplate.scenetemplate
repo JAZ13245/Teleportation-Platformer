@@ -22,7 +22,8 @@ Texture2D:
   m_MipCount: 1
   m_IsReadable: 1
   m_IsPreProcessed: 0
-  m_IgnoreMasterTextureLimit: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
   m_StreamingMipmaps: 0
   m_StreamingMipmapsPriority: 0
   m_VTOnly: 0
@@ -65,7 +66,40 @@ MonoBehaviour:
     the 2D Renderer in Universal RP.
   preview: {fileID: -3604256930052969394}
   dependencies:
-  - dependency: {fileID: 2800000, guid: b3ab972b21db85d48ade9657efdd4771, type: 3}
-    instantiationMode: 1
+  - dependency: {fileID: 9100000, guid: 717addea80eb3224e8e429907b82cbf9, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 1476225979496471297, guid: 4dd12b09f265bf3409ca4318b36a7f44, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 7688280961009657215, guid: 1703b24837d2c0b4eb33f71110924dc9, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: ff045c55244340148b7a3a0baa3cbc70, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 7400000, guid: d1aabf594c8d8aa4faec45d40e0ff6d1, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 9100000, guid: f70bf68abaf41a249bf132b88f47ed7e, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 7400000, guid: 367c73382fe1f9c458f54206d7773c17, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 7400000, guid: 353352a9cc33a7244ab025bea985ce6a, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 73c16134116115e46b4a45cb9eaf1d68, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 7400000, guid: 86c961d3678360a4db3a6337b19dc114, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 7400000, guid: 1772503ca4d958e4ab8b34809794c831, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 7400000, guid: 764b8fb3ae2b07d42a119e3b6cacf979, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 7400000, guid: 70032c10ccc66ec47b1622a785b44e78, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 7170864631501682635, guid: 12570da09b81abd4eb7a973525f5a5aa, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2143899510929583906, guid: 6b68dcbd420c85f4c86a67ed8e3c6d6a, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 7400000, guid: d779b5bbe327e2143a3eb5bcdd10534e, type: 2}
+    instantiationMode: 0
   templatePipeline: {fileID: 0}
+  badge: {fileID: 0}
   addToDefaults: 1
