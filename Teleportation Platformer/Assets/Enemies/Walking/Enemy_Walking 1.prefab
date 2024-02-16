@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2871082189865992044}
   - component: {fileID: 2649556371510465221}
   - component: {fileID: 5635163056184527289}
+  - component: {fileID: 5899648602199802484}
   m_Layer: 0
   m_Name: Enemy_Walking 1
   m_TagString: Untagged
@@ -30,11 +31,11 @@ Transform:
   m_GameObject: {fileID: 1476225979496471297}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.56, y: -3.03, z: 0}
-  m_LocalScale: {x: 0.6721125, y: 1.4660133, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2543339487293039739
 SpriteRenderer:
@@ -196,4 +197,19 @@ MonoBehaviour:
   animator: {fileID: 0}
   PointA: {fileID: 0}
   PointB: {fileID: 0}
-  speed: 4
+  speed: 2
+--- !u!114 &5899648602199802484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476225979496471297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e664d65970ed958408f377cf3acbfc03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isIndestructable: 0
+  health: 1
+  damage: 100

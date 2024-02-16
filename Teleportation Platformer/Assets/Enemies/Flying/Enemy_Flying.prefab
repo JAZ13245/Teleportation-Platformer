@@ -88,7 +88,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3231076481661022150}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.16, y: 0.17, z: -0.11672622}
+  m_LocalPosition: {x: 6.48, y: 0.17, z: -0.11672622}
   m_LocalScale: {x: 9.697781, y: 14.375596, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -167,6 +167,7 @@ GameObject:
   - component: {fileID: -544404805822004574}
   - component: {fileID: 775255718284931294}
   - component: {fileID: 1700859349455675699}
+  - component: {fileID: 5127977138828113287}
   m_Layer: 0
   m_Name: Enemy_Flying
   m_TagString: Untagged
@@ -183,7 +184,7 @@ Transform:
   m_GameObject: {fileID: 7688280961009657215}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.7796, y: 3.5546, z: 0}
-  m_LocalScale: {x: 1.152875, y: 0.6967961, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6994694725679583742}
@@ -326,7 +327,7 @@ Animator:
   m_GameObject: {fileID: 7688280961009657215}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 717addea80eb3224e8e429907b82cbf9, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -349,3 +350,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 499436bb655e9204cb32e63c6c4837fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5127977138828113287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7688280961009657215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e664d65970ed958408f377cf3acbfc03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isIndestructable: 0
+  health: 1
+  damage: 100
