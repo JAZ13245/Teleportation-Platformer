@@ -14,6 +14,7 @@ public class PlayerInput : MonoBehaviour
 
     public Camera cam;
     public LayerMask layerMask;
+    public LayerMask groundLayer;
 
     [HideInInspector]
     public float chargeAmt = 0f;
@@ -259,7 +260,9 @@ public class PlayerInput : MonoBehaviour
     }
     private void CheckFalling()
     {
-        if(rb.velocity.y < -0.05)
+        bool hit = Physics2D.Raycast(transform.position, new Vector2(0, -1), 1f, groundLayer.value);
+        Debug.DrawLine(transform.position, (Vector2) transform.position + new Vector2(0, -1));
+        if(rb.velocity.y < -0.05 && !hit)
         {
             animator.SetBool("bIsFalling", true);
         }
